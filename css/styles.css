@@ -1,0 +1,179 @@
+
+    /* Estilos CSS */
+
+    
+
+    body {
+      font-family: "Segoe UI", "Ubuntu", "Roboto", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: 	
+      		#5e5c64;
+    }
+
+    .main-container {
+
+      margin-top: 3%;
+      margin-bottom: 3%;
+      
+    }
+
+    
+
+
+
+ 
+ 
+.navbar {
+    background-color: 	
+    #000000; 	
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Agrega sombreado */
+}
+ 
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #3b3b3b;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Agrega sombreado */
+}
+ 
+.download-button {
+      background-color: #a51d2d;
+}
+ 
+.button:hover {
+      background-color: #555555;
+}
+ 
+main {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+ 
+h1 {
+    margin-top: 0;
+    color: #fff;
+    padding-top: 30px;
+}
+ 
+.info-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+  justify-content: space-around;
+  
+} 
+ 
+.info-box {
+    border-radius: 10px;
+    flex-basis: 10%;
+    background-color: #ff7800;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* Agrega sombreado */
+}
+ 
+    /* Estilos para el footer */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 50%; /* Ajusta la altura según tus necesidades */
+}
+
+.video-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url('/images/background.mp4') no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.5; /* Ajusta la opacidad según tus preferencias */
+}
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* Agrega sombreado */
+  }
+ 
+  .footer-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+ 
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+ 
+  .footer p {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+ 
+  .info-box-right {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+  align-items: center;
+  background-color: 	
+  #000000;
+
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* Agrega sombreado */
+}
+
+.info-box-right img {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: center; /* Alinea horizontalmente al centro */
+  max-width: 55%;
+  margin-left: 3%; /* Margen izquierdo del 10% del ancho de la pestaña */
+}
+
+.info-box-right div {
+  flex: 1;
+  text-align: center;
+}
+
+.info-box-right h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-right: 5%; /* Espacio interno de 5% del ancho de la pestaña en el lado derecho */
+  padding-left: 5%; /* Espacio interno de 5% del ancho de la pestaña en el lado izquierdo */
+}
+.info-box-right h1 {
+  font-size: 2.35em;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", sans-serif;
+  color: #fff;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-right: 5%; /* Espacio interno de 5% del ancho de la pestaña en el lado derecho */
+  padding-left: 5%; /* Espacio interno de 5% del ancho de la pestaña en el lado izquierdo */
+}
+
+.info-box-right p {
+  color: #fff;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 14px;
+}

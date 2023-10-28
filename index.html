@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Strife - Tu Aplicación de Mensajería</title>
+
+  <style>
+    /* Estilos CSS */
+
+    @import url('https://fonts.googleapis.com/css2?family=GNOME&display=swap');
+
+  </style>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/css/header.css">
+</head>
+<body>
+  
+  <div class="topbar">
+    <div class="topbar-left-flex">
+      <img src="/images/logo.svg-1567333137" alt="Texto alternativo" class="topbar-logo">
+    </div>
+    <div class="topbar-right-flex">
+      <a class="topbar-right" href="#">Chats</a>
+      <a class="topbar-button" href="#">Contactos</a>
+    </div>
+  </div>
+  
+
+  <header class="header-with-video">
+    
+    
+    <div class="video-container">
+      <video autoplay loop muted>
+        <source src="/images/deck1.mp4" type="video/mp4">
+        Tu navegador no admite la reproducción de video.
+      </video>
+      <h1 class="trailer-title">Steam deck</h1>
+      <div class="arrow-down"></div>
+
+
+    </div>
+  </header>
+
+ 
+  <div class="navbar">
+    <a class="button" href="#">Software</a>
+    <a class="button" href="#">Hardware</a>
+    <a class="button" href="#">Deck verified</a>
+    <a class="button" href="#">News</a>
+    <a class="button download-button" href="https://github.com/MrChileball">Pre-order</a>
+  </div>
+ 
+  <main class="main-promotion" >
+    <h1>All-in-one portable PC gaming.
+      Available now, from $399 USD</h1>
+    <p>With Steam Deck, we're bringing your Steam Library to a new form factor—a portable gaming PC. 
+      </p>
+    <p>
+      While many games run great on Deck out of the box, this shift means there 
+      are some games that, 
+    </p>
+    <p>while they may be great on a desktop PC, aren't a great experience on Steam Deck.</p>
+
+  </main>
+ 
+ 
+  <section class="info-box-right" >
+    <img src="/images/software_library_english.jpg" alt="Imagen de ejemplo">
+    <div>
+      <h1 class="title-info">Your Steam Library, anywhere</h1>
+      <p>Once you've logged into Steam Deck, your entire Steam Library shows up, just like any other PC. You'll be able to find your collections and favorites - exactly where you left them.</p>
+    </div>
+  </section>
+
+
+  <section class="info-box-right" >
+    <video class="video-demo" width="320" height="240" loop autoplay muted>
+      <source src="https://cdn.cloudflare.steamstatic.com/valvesoftware/images/videos/hero_01_fullsize.mp4" type="video/mp4">
+      Tu navegador no admite la etiqueta de video.
+    </video>
+  </section>
+
+  
+ 
+  
+  <footer class="footer">
+    <img class="footer-logo" src="/images/valve.png" alt="Logo de la Aplicación">
+    <div class="footer-links">
+      <a href="#">About Us</a>
+      <a href="#">Steam</a>      
+      <a href="#">Privacy Policy</a>
+      <a href="#">Legal</a>
+      <a href="#">Press Kit</a>
+    </div>
+    <p>© 2022 Valve Corporation. All rights reserved. All trademarks property of their respective owners in the U.S. and other countries. Steam, the Steam logo, Steam Deck, and the Steam Deck logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.</p>
+  </footer>
+</body>
+
+<script>
+  // Agregamos una clase "loaded" al elemento header después de que se haya cargado la página
+  window.addEventListener('load', function() {
+    var header = document.querySelector('header');
+    header.classList.add('loaded');
+  });
+</script>
+</html>
+

@@ -1,0 +1,221 @@
+.video-container {
+    position: relative;
+  }
+  
+  .header-with-video {
+    position: relative;
+    overflow: hidden;
+  }
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+  } 
+    .header-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+  
+    top: 30%;
+    left: 21%;
+    max-width: 51%;
+    width: 50%
+    }
+  
+    
+    header.loaded {
+      height: 49vw;
+      opacity: 1; /* Cuando se carga la página, establecemos la opacidad en 1 */
+      background-color: #3b3b3b;
+      padding: 15px;
+      border-radius: 17px;
+      text-align: center;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Agrega sombreado */
+    }
+  
+    header.loaded h1 {
+      opacity: 1;  /*Cuando se carga la página, establecemos la opacidad en 1 */
+      /*background-color: #3b3b3b;*/
+      margin-top: 40px;
+      padding: 15px;
+      border-radius: 17px;
+      text-align: center;
+      color: #fff;
+      font-size: 64px;
+      /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);  Agrega sombreado */
+    }
+  
+    .header-content p {
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    z-index: 1;
+    color: #fff;
+    opacity:1
+  
+   
+    }
+    
+.topbar {
+
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.topbar-left-flex {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.topbar-right-flex {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+      
+  }
+
+.topbar-logo {
+
+  margin-right: 20px; /* Ajusta el margen derecho según tus necesidades */
+  margin-left: 10px; /* Ajusta el margen izquierdo según tus necesidades */
+  margin: 2px; /* Margen general*/
+  text-align: left;
+  text-decoration: none;
+  padding: 10px 6px;
+  color: #fff;
+  top: 10px; /* Ajusta la posición vertical según tus necesidades */
+  right: 10px; /* Ajusta la posición horizontal según tus necesidades */
+  width: 150px; /* Ajusta el ancho inicial de la imagen según tus necesidades */
+  height: auto; /* Permite que la altura se ajuste automáticamente */
+  transition: width 0.3s ease; /* Añade una transición suave al escalar la imagen */
+
+ 
+
+}
+
+.topbar-right {
+    margin: 10px;
+    padding: 10px 14px;
+    margin-right: 20px; /* Ajusta el valor del margen según tus necesidades */
+    text-align: right;
+    border-radius: 16px;
+    background-color: #3b3b3b;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); /* Agrega sombreado */
+
+}
+
+.topbar-right:hover {
+    background-color: #62a0ea;
+}
+.topbar-button {
+    margin: 10px;
+    padding: 10px 14px;
+    margin-right: 20px; /* Ajusta el valor del margen según tus necesidades */
+    text-align: right;
+    border-radius: 12px;
+    background-color: #a51d2d;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); /* Agrega sombreado */
+  
+}
+
+.topbar-button:hover {
+    background-color: #62a0ea;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #3b3b3b;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Agrega sombreado */
+}
+ 
+.download-button {
+      background-color: #a51d2d;
+}
+ 
+.button:hover {
+      background-color: #555555;
+}
+
+.trailer-title {
+
+  font-size: 40px; /* Ajusta el tamaño de la letra grande según tus necesidades */
+  font-family: "GNOME Font", sans-serif; /* Ajusta la fuente de letra de GNOME según tus necesidades */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap; /* Evita el salto de línea en el título */
+  color: #fff; /* Ajusta el color del texto según tus necesidades */
+}
+
+
+
+  .arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateY(170px);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    cursor: pointer;
+    animation: arrow-animation 1s infinite alternate;
+  }
+  
+
+
+
+  @keyframes arrow-animation {
+    0% {
+      transform: translateX(-50%) translateY(150px);
+    }
+    100% {
+      transform: translateX(-50%) translateY(170px);
+    }
+  }
+
+  .main-promotion {
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background: linear-gradient(to bottom, #613583, #000000);
+    padding: 40px;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+.video-demo{
+    position: relative;
+    height: 50%;
+    overflow: hidden;
+}
